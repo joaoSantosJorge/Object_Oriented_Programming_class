@@ -1,0 +1,25 @@
+export CLASSPATH=/home/joao/Documents/tecnico/2ano/po/project/woo-app/woo-app.jar:/home/joao/Documents/tecnico/2ano/po/project/woo-core/woo-core.jar:/usr/share/java/po-uuilib.jar
+
+
+
+java -Dimport=test.import -Din=test.in -Dout=test.outyp woo.app.App
+
+
+
+woo-app directory or path to direcctory
+java -Dimport=data.txt woo.app.App
+
+
+java -Dimport=A-03-05-M-ok.import -Din=A-03-05-M-ok.in -Dout=A-03-05-M-ok.outyp  woo.app.App
+diff -b A-03-05-M-ok.out A-03-05-M-ok.outyp
+
+
+
+ERROS:
+A-04-04
+
+
+
+Container extends box
+
+ServiceType Level, Lists -> enviara para Cients... Products!
